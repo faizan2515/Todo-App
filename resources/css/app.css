@@ -1,0 +1,110 @@
+.message-container
+{
+    margin: 20px auto;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    border-radius: 10px;
+}
+.form-container
+{
+    position: relative;
+    margin: 20px auto;
+    display: flex;
+    width: 30%;
+    padding: 30px;
+    justify-content: center;
+    border: 0;
+    border-radius: 10px;
+}
+.wrapper
+{
+    background: white;
+    border: 1px solid gray;
+    border-radius: 40px;
+}
+.form-input
+{
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.wrapper .btn
+{
+    border: 0;
+    border-radius: 40px;
+}
+
+.form-container span
+{
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+}
+.list-container
+{
+    margin: 20px auto;
+    display: block;
+    width: 30%;
+    min-height: 40vh;
+    padding: 30px;
+    border: 0;
+    border-radius: 10px;
+}
+.list-item
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: white;
+    color: #0d6efd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.check-list-item
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-word;
+}
+.check-list-item .fa-check
+{
+    margin-right: 10px;
+    color: green;
+}
+.list-item .fas
+{
+    cursor: pointer;
+}
+.list-item:last-child
+{
+    margin-bottom: 0;
+}
+.list-item .fa-trash{
+    margin-left: 10px;
+    color: red;
+}
+.status
+{
+    background: white;
+    color: #0d6efd;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+.check-list-item .fa-times
+{
+    margin-right: 10px;
+    color: red;
+}

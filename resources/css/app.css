@@ -19,6 +19,8 @@
 }
 .wrapper
 {
+    display: flex;
+    justify-content: space-between;
     background: white;
     border: 1px solid gray;
     border-radius: 40px;
@@ -107,4 +109,71 @@
 {
     margin-right: 10px;
     color: red;
+}
+
+@media screen and (max-width: 1024px){
+    .message-container{
+        width: 75%;
+    }
+    .form-container{
+        width: 75%;
+    }
+    .form-input{
+        /* width: 100%; */
+        padding: 0px;
+        padding-left: 10px;
+    }
+    .list-container{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 767px) {
+  .d-md-flex .btn {
+      width: 100%;
+    }
+    .message-container{
+        width: 95%;
+    }
+    .form-container{
+        width: 95%;
+        padding: 30px;
+        /* padding-bottom: 30px; */
+    }
+    .wrapper{
+        width: 100%;
+    }
+    .form-input{
+        width: 70%;
+        padding: 0px;
+        padding-left: 10px;
+    }
+    .list-container{
+        width: 95%;
+    }
+    .form-input{
+        /* width: 80%; */
+        padding: 0px;
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width:320px){
+    .message-container{
+        width: 95%;
+    }
+    .form-container{
+        width: 95%;
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+    /* .wrapper{
+        width: 100%;
+    } */
+    .form-input{
+        /* width: 100%; */
+        padding: 0px;
+        padding-left: 10px;
+    }
+    .list-container{
+        width: 95%;
+    }
 }

@@ -20,7 +20,7 @@
                     <input type="password" wire:model="form.password" class="form-control">
                     @error('form.password') <span class="text-danger">{{ $message }}</span> @enderror
                 </div>
-                <div class="d-flex align-items-baseline">
+                <div class="d-md-flex align-items-baseline">
                     <button type="submit" class="btn btn-primary">Login</button>
                     <p class="mx-3">Don't Have An Account? <a href="/register">Register</a></p>
                 </div>

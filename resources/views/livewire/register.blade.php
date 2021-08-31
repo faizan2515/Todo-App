@@ -23,7 +23,7 @@
                     <label class="form-label">Confirm Password</label>
                     <input type="password" wire:model="password_confirmation" class="form-control">
                 </div>
-                <div class="d-flex align-items-baseline">
+                <div class="d-md-flex align-items-baseline">
                     <button type="submit" class="btn btn-primary">Register</button>
                     <p class="mx-3">Already Have An Account? <a href="/login">Login</a></p>
                 </div>

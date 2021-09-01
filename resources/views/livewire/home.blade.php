@@ -22,14 +22,11 @@
           <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
       @endif
-      <div class="form-container bg-primary">
-        <div class="wrapper">
-          <input type="text" wire:model.lazy="item" class="form-input">
-          <button type="button" wire:click="addItem" class="btn btn-outline-primary">Add Item</button>
-        </div>
+      <div class="container bg-primary">
+        <input type="text" wire:model.lazy="item" class="form-input" placeholder="Add todo here...">
+        <button type="button" wire:click="addItem" class="button">Add Item</button>
         @error('item') <span class="text-light">{{ $message }}</span> @enderror
-      </div>
-      <div class="list-container bg-primary">
+        <hr>
         @if (count($IncompleteTasks)>0)
         <p class="status">Incomplete</p>
           @foreach ($IncompleteTasks as $task)
